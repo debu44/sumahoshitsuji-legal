@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>スマホ執事</title>
-    <style>
-        body { font-family: -apple-system, sans-serif; max-width: 800px; margin: 0 auto; padding: 40px 20px; line-height: 1.8; color: #333; text-align: center; }
-        h1 { color: #4CAF93; }
-        a { color: #4CAF93; text-decoration: none; font-size: 18px; }
-        a:hover { text-decoration: underline; }
-        .links { margin-top: 40px; }
-        .links a { display: block; margin: 15px 0; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>スマホ執事</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&family=Noto+Sans+JP:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif;color:#2c3e50;background:linear-gradient(180deg,#fdf6ec 0%,#f0f7ff 50%,#fff 100%);line-height:1.85;}
+header{background:linear-gradient(135deg,#1a3a5c,#2a5a8c);padding:20px 24px;text-align:center;}
+header a{font-family:'Zen Maru Gothic',sans-serif;color:#fff;text-decoration:none;font-size:1.1rem;letter-spacing:.05em;}
+.wrap{max-width:780px;margin:0 auto;padding:60px 24px 80px;text-align:center;}
+h1{font-family:'Zen Maru Gothic',sans-serif;font-size:2rem;color:#1a3a5c;margin-bottom:10px;}
+.desc{font-size:1rem;color:#888;margin-bottom:50px;}
+.links{display:flex;flex-direction:column;gap:16px;max-width:400px;margin:0 auto;}
+.links a{display:block;padding:16px 24px;background:#fff;border:1px solid #d0dde8;border-radius:10px;text-decoration:none;color:#1a3a5c;font-size:1rem;font-weight:600;transition:all .2s;}
+.links a:hover{background:#f0f7ff;border-color:#2a5a8c;}
+footer{text-align:center;padding:24px;color:#4a6275;font-size:.78rem;background:#fdf6ec;border-top:1px solid #e8d5b0;}
+</style>
 </head>
 <body>
-    <h1>スマホ執事</h1>
-    <p>高齢者とご家族のための見守りアプリ</p>
-    <div class="links">
-        <a href="privacy-policy.html">プライバシーポリシー</a>
-        <a href="terms-of-service.html">利用規約</a>
-        <a href="tokusho.html">特定商取引法に基づく表記</a>
-    </div>
+<header><a href="index.html">🏠 スマホ執事</a></header>
+<div class="wrap">
+  <h1>スマホ執事</h1>
+  <p class="desc">高齢者とご家族のための見守りアプリ</p>
+  <div class="links">
+    <a href="privacy-policy.html">🔒 プライバシーポリシー</a>
+    <a href="terms-of-service.html">📋 利用規約</a>
+    <a href="tokusho.html">🏢 特定商取引法に基づく表記</a>
+  </div>
+</div>
+<footer>© 2026 高橋健太 / スマホ執事</footer>
 </body>
 </html>
